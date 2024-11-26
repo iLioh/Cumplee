@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz Día!</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+  <!-- Mensaje arriba del regalo -->
+  <p id="message">
+    ¡Espero que te guste mi niñita! 
+    <span class="Lioh">
+      <a href="https://www.youtube.com/watch?v=osPq9Yb8xm8">Te amo mucho mi reina</a>
+    </span>
+  </p>
+
+  <!-- Contenedor del regalo -->
+  <div id="gift-container">
+    <div id="gift-box">
+      <div class="ribbon-top">
+        <div class="ribbon-bow"></div>
+      </div>
+      <div class="lid"></div>
+      <div class="base"></div>
+      <div class="ribbon ribbon-vertical"></div>
+      <div class="ribbon ribbon-horizontal"></div>
+    </div>
+    <button id="open-gift">Abrir Regalo 💕</button>
+  </div>
+
+  <!-- Imagen del regalo -->
+  <img id="gift-cover" src="melo.png" alt="Cover" />
+
+  <canvas id="c" style="display: none;"></canvas>
+  <p id="messages" style="display: none;">
+    Pídeme lo que quieras 
+  <script src="./script.js"></script>
+</body>
+</html>
